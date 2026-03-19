@@ -18,11 +18,17 @@ Exigir transparencia en tiempo real es, sencillamente, exigir que la administrac
 
 **ARTÍCULO 2º.- Ámbito de Aplicación.** Quedan sujetos a las disposiciones de la presente ley todos los poderes del Estado (Ejecutivo, Legislativo y Judicial), organismos descentralizados, empresas del Estado, universidades nacionales y cualquier ente que perciba o administre fondos públicos.
 
-**ARTÍCULO 3º.- Identificación de Cuentas.** Todas las cuentas bancarias del Estado deben estar registradas en un padrón público unificado que permita identificar con precisión:
+**ARTÍCULO 3º.- Identificación de Cuentas y Definiciones Operativas.** Todas las cuentas bancarias del Estado deben estar registradas en un padrón público unificado que permita identificar con precisión:
 
 * Organismo titular.
 * Dependencia o unidad ejecutora específica.
 * Origen de los fondos (partida presupuestaria correspondiente).
+
+A los efectos de la presente ley, se entiende por:
+
+1. **Movimiento de fondos:** toda operación de débito o crédito alcanzada por el Artículo 4º.
+2. **Tiempo real:** publicación con latencia máxima de hasta veinticuatro (24) horas corridas desde la acreditación o débito en cuenta.
+3. **Datos anonimizados:** tratamiento que impida la identificación directa de personas humanas, preservando la trazabilidad del gasto.
 
 **ARTÍCULO 4º.- Publicidad de las Transferencias.** Todo movimiento de fondos (débito o crédito) deberá ser publicado de forma automática en una plataforma digital de acceso abierto. Cada registro de transferencia debe incluir obligatoriamente:
 
@@ -30,21 +36,21 @@ Exigir transparencia en tiempo real es, sencillamente, exigir que la administrac
 2. **Destinatario:** Nombre de la empresa o CUIT. En caso de personas físicas (sueldos o subsidios), los datos serán anonimizados mediante un código único de seguimiento para proteger la privacidad, pero manteniendo la trazabilidad del gasto.
 3. **Concepto:** Razón detallada de la erogación, vinculada al número de factura, contrato o licitación correspondiente.
 
-**ARTÍCULO 5º.- Estándares Técnicos.** El formato de los datos (APIs, archivos descargables en CSV/JSON) será determinado por un **Comité de Expertos en Datos y Transparencia**, integrado por representantes de las Universidades Nacionales. El objetivo es asegurar que la información sea procesable, auditable y no manipulable.
+**ARTÍCULO 5º.- Estándares Técnicos.** El formato de los datos (APIs, archivos descargables en CSV/JSON) será determinado por un **Comité de Expertos en Datos y Transparencia**, integrado por representantes de las Universidades Nacionales. Dichos estándares deberán asegurar el cumplimiento de los contenidos mínimos del Artículo 4º, la integridad prevista en el Artículo 11º y las condiciones de reutilización del Artículo 12º.
 
-**ARTÍCULO 6º.- Derecho de Ampliación Informativa.** Todo ciudadano podrá solicitar detalles adicionales sobre cualquier operación publicada.
+**ARTÍCULO 6º.- Derecho de Ampliación Informativa.** Todo ciudadano podrá solicitar detalles adicionales sobre cualquier operación publicada conforme al Artículo 4º.
 
 * **Sistema de Prioridad Social:** Estos pedidos serán públicos y podrán ser "votados" o "puntuados" por otros ciudadanos.
 * El organismo interpelado tendrá la obligación de atender con prioridad absoluta aquellos pedidos que acumulen mayor interés público.
 
-**ARTÍCULO 7º.- Régimen de Excepciones.** Se establecen taxativamente dos tipos de excepciones por razones de seguridad nacional o inteligencia, las cuales deberán ser aprobadas por una comisión bicameral con fundamentos públicos:
+**ARTÍCULO 7º.- Régimen de Excepciones.** Se establecen taxativamente dos tipos de excepciones por razones de seguridad nacional o inteligencia, las cuales deberán ser aprobadas por una comisión bicameral con fundamentos públicos y control posterior de la autoridad de aplicación del Artículo 9º:
 
 1. **Excepciones Temporales:** Transferencias que podrán publicarse con un diferimiento máximo de un (1) año.
 2. **Excepciones Totales:** Solo para casos críticos de seguridad extrema. En estos casos, se informarán presupuestos sumarizados, manteniendo el detalle bajo reserva, pero debidamente auditado.
 
-**ARTÍCULO 8º.- Sanciones.** El incumplimiento de la carga de datos en tiempo real, la omisión de transferencias o la falsificación de conceptos será considerado falta grave, procediendo a la remoción inmediata de los responsables administrativos y el inicio de acciones penales por malversación y ocultamiento de información pública.
+**ARTÍCULO 8º.- Sanciones.** El incumplimiento de la carga de datos en tiempo real según la definición del Artículo 3º, la omisión de transferencias exigidas por el Artículo 4º o la vulneración de integridad prevista en el Artículo 11º será considerado falta grave, procediendo a la remoción inmediata de los responsables administrativos y el inicio de acciones penales por malversación y ocultamiento de información pública.
 
-**ARTÍCULO 9º.- Autoridad de Aplicación.** El Poder Ejecutivo Nacional designará la autoridad de aplicación, la que tendrá a su cargo la reglamentación técnica, la fiscalización del cumplimiento y la publicación periódica de indicadores de calidad, integridad y disponibilidad de los datos.
+**ARTÍCULO 9º.- Autoridad de Aplicación.** El Poder Ejecutivo Nacional designará la autoridad de aplicación, la que tendrá a su cargo la reglamentación técnica, la fiscalización del cumplimiento y la publicación periódica de indicadores de calidad, integridad y disponibilidad de los datos, en coordinación con los estándares definidos en el Artículo 5º.
 
 **ARTÍCULO 10º.- Implementación por Etapas.** La implementación del régimen se realizará conforme al siguiente cronograma máximo:
 
@@ -56,7 +62,7 @@ Exigir transparencia en tiempo real es, sencillamente, exigir que la administrac
 
 **ARTÍCULO 12º.- Acceso, Reutilización y Licencia.** La información publicada en virtud de la presente ley será de acceso libre, en formatos abiertos y reutilizables, sin necesidad de registro previo, y bajo licencia pública que permita su uso, análisis y redistribución con cita de fuente.
 
-**ARTÍCULO 13º.- Cláusulas Transitorias.** Hasta la entrada en vigencia plena del Artículo 10º, inciso 3, los organismos deberán publicar informes mensuales consolidados de ejecución financiera con detalle equivalente al exigido en el Artículo 4º.
+**ARTÍCULO 13º.- Cláusulas Transitorias.** Hasta la entrada en vigencia plena del Artículo 10º, inciso 3, los organismos deberán publicar informes mensuales consolidados de ejecución financiera con detalle equivalente al exigido en el Artículo 4º y bajo las reglas de integridad del Artículo 11º.
 
 ## ANEXO TÉCNICO: DE LA "IMPOSIBILIDAD" A LA REALIDAD DIGITAL
 
